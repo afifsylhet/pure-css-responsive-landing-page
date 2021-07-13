@@ -7,6 +7,7 @@ Common Style Part Starts From Here
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #f7efc5;
 }
 
 /*-------------------------- 
@@ -20,14 +21,14 @@ Header Starts From Here
 .main-heading{
     background-color: #2D25A0;
     padding-top: 135px;
+    margin-bottom: 70px;
 }
 
 .main-heading:hover .container img{
-    transform: scale(1.2);
-    transition: transform 5s ease-in-out 0.2s;
+    transform: scale(1.1);
+    transition: transform 3s ease-in-out 0.2s;
 
 }
-
 
 .container{
     height: 552px;
@@ -72,22 +73,110 @@ Header Starts From Here
     height: 456px;
 }
 
-.test{
-    width: 1158;
-    height: 200px;
-    background-color: black;
-
-}
-
 
 /*----------------------------- 
 Card Section Starts From Here
 ------------------------------*/
+.cards{
+    width: 1050px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
 
+.single-card{
+    width: 300px;
+    height: 435px;
+    padding:15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.719);
+    display: flex;
+    flex-direction: column;
+}
+
+/* .single-card:hover .single-card{
+    border: 1px solid red; */
+}
+.player-iamge{
+    width: 300px;
+    height: 256px;
+}
+
+.player-name{
+    font-weight: 700px;
+    font-size: 28px;
+    margin-top: 16px;
+    text-align: justify;
+}
+
+.palyer-info{
+    height: 160px;
+    width: 300px;
+}
+
+.player-review{
+    font-weight: 400px;
+    color: #6C6C6C;
+}
 
 /*--------------------------------- 
-Highlits Section Starts From Here
+Highlights Section Starts From Here
 ----------------------------------*/
+
+
+.container-2{
+    padding-top: 135px;
+    height: 552px;
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.highlights-left > h1 {
+    display:flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 48;
+    margin-bottom: 10px;
+}
+
+.title{
+    margin-top: 65px;
+}
+
+.highlights-text{
+    width: 384px;
+    margin-bottom: 20px;
+    margin-bottom: 24px;
+    color: #6C6C6C;
+    font-weight: 400px;
+
+}
+
+.btn{
+    height: 44px;
+    width: 168px;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px 10px 24px;
+    text-align: center;
+}
+
+.btn > a {
+    text-decoration: none;
+    font-size: 16px;
+    color:white;
+    margin-right: 5px;
+}
+.hightlights-image {
+    width: 567px;
+    height: 427;
+}
+
 
 /*------------------------------------ 
 Point Table Section Starts From Here
