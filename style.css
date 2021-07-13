@@ -1,0 +1,103 @@
+/* --------------------------------
+Common Style Part Starts From Here
+--------------------------------- */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-------------------------- 
+Navbar Starts From Here
+----------------------------*/
+
+
+/*-------------------------- 
+Header Starts From Here
+----------------------------*/
+.main-heading{
+    background-color: #2D25A0;
+    padding-top: 135px;
+}
+
+.main-heading:hover .container img{
+    transform: scale(1.2);
+    transition: transform 5s ease-in-out 0.2s;
+
+}
+
+
+.container{
+    height: 552px;
+    width: 1143px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-title{
+    font-size: 68px;
+    font-weight: 700;
+    color: white;
+}
+
+.button{
+    height: 44px;
+    width: 168px;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px 10px 24px;
+    text-align: center;
+}
+
+.button > a {
+    text-decoration: none;
+    font-size: 16px;
+    color:white;
+    margin-right: 5px;
+}
+
+.button:hover{
+    border: 2px solid white;
+}
+
+.button > span {
+    color:white;
+}
+
+.heading-image{
+    width: 556px;
+    height: 456px;
+}
+
+.test{
+    width: 1158;
+    height: 200px;
+    background-color: black;
+
+}
+
+
+/*----------------------------- 
+Card Section Starts From Here
+------------------------------*/
+
+
+/*--------------------------------- 
+Highlits Section Starts From Here
+----------------------------------*/
+
+/*------------------------------------ 
+Point Table Section Starts From Here
+-------------------------------------*/
+
+/*------------------------------------ 
+Gallery Section Starts From Here
+-------------------------------------*/
+
+/*------------------------ 
+Footer Starts From Here
+-------------------------*/
+
