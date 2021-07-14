@@ -23,13 +23,10 @@ Header Starts From Here
     padding-top: 135px;
     margin-bottom: 70px;
 }
-
 .main-heading:hover .container img{
     transform: scale(1.1);
     transition: transform 3s ease-in-out 0.2s;
-
 }
-
 .container{
     height: 552px;
     width: 1143px;
@@ -37,13 +34,11 @@ Header Starts From Here
     display: flex;
     justify-content: space-between;
 }
-
 .heading-title{
     font-size: 68px;
     font-weight: 700;
     color: white;
 }
-
 .button{
     height: 44px;
     width: 168px;
@@ -52,27 +47,22 @@ Header Starts From Here
     padding: 10px 24px 10px 24px;
     text-align: center;
 }
-
 .button > a {
     text-decoration: none;
     font-size: 16px;
     color:white;
     margin-right: 5px;
 }
-
 .button:hover{
     border: 2px solid white;
 }
-
 .button > span {
     color:white;
 }
-
 .heading-image{
     width: 556px;
     height: 456px;
 }
-
 
 /*----------------------------- 
 Card Section Starts From Here
@@ -85,7 +75,6 @@ Card Section Starts From Here
     grid-row-gap: 30px;
     grid-column-gap: 30px;
 }
-
 .single-card{
     width: 300px;
     height: 435px;
@@ -96,7 +85,6 @@ Card Section Starts From Here
     display: flex;
     flex-direction: column;
 }
-
 /* .single-card:hover .single-card{
     border: 1px solid red; */
 }
@@ -104,39 +92,34 @@ Card Section Starts From Here
     width: 300px;
     height: 256px;
 }
-
 .player-name{
     font-weight: 700px;
     font-size: 28px;
     margin-top: 16px;
     text-align: justify;
 }
-
 .palyer-info{
     height: 160px;
     width: 300px;
 }
-
 .player-review{
     font-weight: 400px;
     color: #6C6C6C;
 }
-
 /*--------------------------------- 
 Highlights Section Starts From Here
 ----------------------------------*/
-
-
 .container-2{
-    padding-top: 135px;
+    margin-top: 20px;
+    padding-top: 50px;
     width: 1050px;
-    height: 567px;
-    margin: 0 auto;
+    height: 470px;
+    margin-left: 21%;
     display: flex;
     justify-content: space-between;
     background-color: white;
+    border-radius: 5px;
 }
-
 .highlights-left {
     padding-left:15px;
 }
@@ -147,20 +130,16 @@ Highlights Section Starts From Here
     font-size: 48;
     margin-bottom: 10px;
 }
-
 .title{
     margin-top: 65px;
 }
-
 .highlights-text{
     width: 384px;
     margin-bottom: 20px;
     margin-bottom: 24px;
     color: #6C6C6C;
     font-weight: 400px;
-
 }
-
 .btn{
     height: 44px;
     width: 168px;
@@ -169,7 +148,6 @@ Highlights Section Starts From Here
     padding: 10px 24px 10px 24px;
     text-align: center;
 }
-
 .btn > a {
     text-decoration: none;
     font-size: 16px;
@@ -181,11 +159,9 @@ Highlights Section Starts From Here
     height: 427;
 }
 
-
 /*------------------------------------ 
 Testimonial Section Starts From Here
 -------------------------------------*/
-
 .testimonial{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -194,53 +170,184 @@ Testimonial Section Starts From Here
     width: 1050px;
     margin: 0 auto;
 }
-
 .meet{
-    font-size: 45px;
+    margin-top: 30px;
+    font-size: 28px;
     font-weight: 700;
     padding-bottom: 24px;
     text-align: center;
 }
-
 .container-3{
     width: 510px;
     height: 300px;
     display: flex;
-    /* background-color: white; */
+    background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.719);
+    margin-bottom: 30px;
 }
-
 .container-3 > img{
     width: 255px;
     height: 300px;
 }
-
 .testi-name{
     font-size: 22px;
     font-weight: 700;
 }
-
 .testi-info{
     margin-left:15px;
     margin-top: 15px;
     padding-right: 15px;
     overflow: hidden;
 }
-
 .testi-about{
     font-size:16px;
     color: #6C6C6C;
     text-align: justify;
-
 }
 
 /*------------------------------------ 
-Gallery Section Starts From Here
+Point table Section Starts From Here
 -------------------------------------*/
+.gallery {
+    width: 1050px;
+    background-color: white;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.section-hading-4 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px;
+    text-align: center;
+}
+.last-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.winner{
+    width: 290px;
+    hight:auto;
+    padding: 8px;
+    margin:20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.719);
+}
+.winner h1{
+    font-size: 28px;
+    font-weight: bold;
+}
+.winner p{
+    font-size: 16px;
+}
+.flag{
+    width: inherit;
+    padding-right: 15px;
+}
+.point-table{
+    width: 640px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background-color:rgba(218, 64, 64, 0.774);
+    margin:20px;
+    padding: 8px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(255, 208, 0, 0.849);
+}
+.point-table-value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: violet;
+}
+.value{
+font-size: 16px;
+}
 
 /*------------------------ 
 Footer Starts From Here
 -------------------------*/
+.main-footer{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-footer img{
+    width: 483px;
+    height: 110px;
+}
+.socila-media-icon {
+    color: #2e4694;
+    font-size: 45px;
+    font-weight: bold;
+}
+.main-footer p{
+    font-size: 24px;
+}
 
+/*---------------------------------- 
+Mobile Responsive Starts From Here
+-----------------------------------*/
 
+@media only screen and (max-width: 688px) {
+    .container {
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .heading-image{
+        margin-top: 50px;
+    }
+    .cards{
+        width: 100%;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .container-2{
+        width: 100%;
+        /* flex-wrap: wrap; */
+        margin-top: 20px;
+        padding-top: 50px;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        /* flex-direction: column;
+        justify-content: center; */
+    }
+    .hightlights-image {
+        width: 90%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .testimonial{
+        width: 100%;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .last-grid{
+        width: 100%;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .winner{
+        width: 290px;
+        hight:auto;
+        padding: 8px;
+        margin:20px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.719);
+    }
+    .gallery {
+        width: 100%;
+        height: auto;
+    }
+  }
