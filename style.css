@@ -271,24 +271,24 @@ Mobile Responsive Starts From Here
         justify-items: center;
     }
     .testimonial{
-        width: 100%;
+        width: 90%;
+        display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
     }
     .container-3{
         width: 100%;
         height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr; 
+        justify-items: center;
     }
     .testi-about{
-        padding-right: 15px;
         overflow: hidden;
-        width: 68%;
+        flex-grow: 1;
     }
     .last-grid{
-        width: 85%;
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
@@ -316,55 +316,15 @@ Mobile Responsive Starts From Here
         justify-items: center;
     }
     .point-table{
-        width: 100%;
+        width: 80%;
         margin: 0 auto;
+    }
+    .main-footer{
+        transform:scale(0.60);
+        margin:0 auto;
     }
   }
 
-
-  /*---------------------------------- 
-    Tablet Responsive Starts From Here
-    -----------------------------------*/
-
-    @media screen and (min-width: 689px) and (max-width: 992px) {
-        .container {
-            width: 100%;
-            height: auto;
-            justify-content: center;
-            transform:scale(0.75);
-        }
-        .cards{
-            width: 100%;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            justify-items: center;
-        }
-        .testimonial{
-            width: 100%;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            justify-items: center;
-        }
-        .last-grid{
-            width: 100%;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            justify-items: center;
-        }
-        .last-grid {
-            width: 100%;
-            height: auto;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            justify-items: center;
-        }
-        .point-table{
-            width: 475px;
-            margin-left: 100px;
-            margin: 0 auto;
-        }
-
-  }
 
                     /* -----------------------
                                 The END 
