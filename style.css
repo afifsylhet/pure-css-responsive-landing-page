@@ -251,8 +251,15 @@ Mobile Responsive Starts From Here
         height: auto;
         justify-content: center;
     }
+    .heading-title{
+        font-size: 42px;
+        font-weight: 700;
+        color: white;
+    }
     .heading-image{
         margin-top: 50px;
+        width: 85%;
+        height: auto;
     }
     .cards{
         width: 100%;
@@ -270,7 +277,7 @@ Mobile Responsive Starts From Here
         justify-items: center;
     }
     .winner{
-        width: 290px;
+        width: 100%;
         height: auto;
         padding: 8px;
         margin:20px;
@@ -285,8 +292,7 @@ Mobile Responsive Starts From Here
         justify-items: center;
     }
     .point-table{
-        width: 550px;
-        margin-left: 100px;
+        width: 100%;
         margin: 0 auto;
     }
   }
