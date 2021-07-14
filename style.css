@@ -251,14 +251,18 @@ Mobile Responsive Starts From Here
         height: auto;
         justify-content: center;
     }
+    .container > div{
+        transform:scale(0.75);
+        margin-left:0px;
+    }
     .heading-title{
-        font-size: 42px;
+        font-size: 32px;
         font-weight: 700;
         color: white;
     }
     .heading-image{
         margin-top: 50px;
-        width: 85%;
+        width: 75%;
         height: auto;
     }
     .cards{
@@ -271,21 +275,41 @@ Mobile Responsive Starts From Here
         grid-template-columns: 1fr;
         justify-items: center;
     }
-    .last-grid{
+    .container-3{
         width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .testi-about{
+        padding-right: 15px;
+        overflow: hidden;
+        width: 68%;
+    }
+    .last-grid{
+        width: 85%;
+        display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
     }
     .winner{
-        width: 100%;
+        width: 200px;
+        padding:5%;
         height: auto;
         padding: 8px;
-        margin:20px;
         border-radius: 5px;
         box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.719);
     }
-    .gallery {
+    .section-hading-4{
         width: 100%;
+        height: auto;
+        padding:5%
+        font-size: 24px;
+        margin: 0px;
+    }
+    .gallery {
+        width: 95%;
         height: auto;
         display: grid;
         grid-template-columns: 1fr;
