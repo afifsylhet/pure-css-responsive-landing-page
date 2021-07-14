@@ -264,7 +264,6 @@ Mobile Responsive Starts From Here
         grid-template-columns: 1fr;
         justify-items: center;
     }
-
     .last-grid{
         width: 100%;
         grid-template-columns: 1fr;
@@ -284,13 +283,11 @@ Mobile Responsive Starts From Here
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
-
     }
     .point-table{
         width: 550px;
         margin-left: 100px;
         margin: 0 auto;
-
     }
   }
 
@@ -335,8 +332,10 @@ Mobile Responsive Starts From Here
             width: 475px;
             margin-left: 100px;
             margin: 0 auto;
-    
         }
 
-
   }
+
+                    /* -----------------------
+                                The END 
+                    --------------------------*/
