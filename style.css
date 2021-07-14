@@ -106,58 +106,6 @@ Card Section Starts From Here
     font-weight: 400px;
     color: #6C6C6C;
 }
-/*--------------------------------- 
-Highlights Section Starts From Here
-----------------------------------*/
-.container-2{
-    margin-top: 20px;
-    padding-top: 50px;
-    width: 1050px;
-    height: 470px;
-    margin-left: 21%;
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    border-radius: 5px;
-}
-.highlights-left {
-    padding-left:15px;
-}
-.highlights-left > h1 {
-    display:flex;
-    flex-direction: column;
-    font-weight: 700;
-    font-size: 48;
-    margin-bottom: 10px;
-}
-.title{
-    margin-top: 65px;
-}
-.highlights-text{
-    width: 384px;
-    margin-bottom: 20px;
-    margin-bottom: 24px;
-    color: #6C6C6C;
-    font-weight: 400px;
-}
-.btn{
-    height: 44px;
-    width: 168px;
-    background-color: #E02C6D;
-    color: white;
-    padding: 10px 24px 10px 24px;
-    text-align: center;
-}
-.btn > a {
-    text-decoration: none;
-    font-size: 16px;
-    color:white;
-    margin-right: 5px;
-}
-.hightlights-image {
-    width: 567px;
-    height: 427;
-}
 
 /*------------------------------------ 
 Testimonial Section Starts From Here
@@ -301,6 +249,7 @@ Mobile Responsive Starts From Here
         width: 100%;
         flex-wrap: wrap;
         height: auto;
+        justify-content: center;
     }
     .heading-image{
         margin-top: 50px;
@@ -309,23 +258,6 @@ Mobile Responsive Starts From Here
         width: 100%;
         grid-template-columns: 1fr;
         justify-items: center;
-    }
-    .container-2{
-        width: 100%;
-        /* flex-wrap: wrap; */
-        margin-top: 20px;
-        padding-top: 50px;
-        height: auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
-        /* flex-direction: column;
-        justify-content: center; */
-    }
-    .hightlights-image {
-        width: 90%;
-        height: auto;
-        margin-top: 30px;
     }
     .testimonial{
         width: 100%;
@@ -340,7 +272,7 @@ Mobile Responsive Starts From Here
     }
     .winner{
         width: 290px;
-        hight:auto;
+        height: auto;
         padding: 8px;
         margin:20px;
         border-radius: 5px;
@@ -349,5 +281,62 @@ Mobile Responsive Starts From Here
     .gallery {
         width: 100%;
         height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+
     }
+    .point-table{
+        width: 550px;
+        margin-left: 100px;
+        margin: 0 auto;
+
+    }
+  }
+
+
+  /*---------------------------------- 
+    Tablet Responsive Starts From Here
+    -----------------------------------*/
+
+    @media screen and (min-width: 689px) and (max-width: 992px) {
+        .container {
+            width: 100%;
+            height: auto;
+            justify-content: center;
+            transform:scale(0.75);
+        }
+        .cards{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+        }
+        .testimonial{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+        }
+        .last-grid{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+        }
+        .last-grid {
+            width: 100%;
+            height: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+        }
+        .point-table{
+            width: 475px;
+            margin-left: 100px;
+            margin: 0 auto;
+    
+        }
+
+
   }
