@@ -252,8 +252,10 @@ Mobile Responsive Starts From Here
         justify-content: center;
     }
     .container > div{
-        transform:scale(0.75);
-        margin-left:0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left:20px;
     }
     .heading-title{
         font-size: 32px;
@@ -325,6 +327,92 @@ Mobile Responsive Starts From Here
     }
   }
 
+
+  /*---------------------------------- 
+Tablet Responsive Starts From Here
+-----------------------------------*/
+
+@media only screen and (min-width:689px) and (max-width: 992px)  {
+    .container {
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+    }
+    /* .container > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left:20px;
+    } */
+    .heading-title{
+        font-size: 32px;
+        font-weight: 700;
+        color: white;
+    }
+    /* .heading-image{
+        margin-top: 50px;
+        width: 75%;
+        height: auto;
+    } */
+    .cards{
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+    .testimonial{
+        width: 85%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    /* .container-3{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr; 
+        justify-items: center;
+    } */
+    .testi-about{
+        overflow: hidden;
+        flex-grow: 1;
+    }
+    /* .last-grid{
+        max-width: 100%;
+        transform: scale(0.80);
+        display: grid;
+        justify-items: center;
+    }
+    .winner{
+        max-width: 200px;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.719);
+    }
+    .section-hading-4{
+        width: 100%;
+        height: auto;
+        padding:5%;
+        margin: 0px;
+        font-size: 42px; */
+    }
+    .gallery {
+        display: none;
+        /* width: 95%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center; */
+    }
+    /* .point-table{
+        width: 80%;
+        margin: 0 auto;
+    } */
+    .main-footer{
+        transform:scale(0.80);
+        margin:0 auto;
+    }
+  }
 
                     /* -----------------------
                                 The END 
